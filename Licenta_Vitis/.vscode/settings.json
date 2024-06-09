@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "axi_timer.h": "c",
+        "axi_traffic_gen.h": "c"
+    }
+}

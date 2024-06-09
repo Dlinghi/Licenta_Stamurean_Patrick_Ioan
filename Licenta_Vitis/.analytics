@@ -1,0 +1,114 @@
+timestamp=[2024-06-01 15:25:05], mode=WORKBENCH_START, duration=0:00:03.118, duration_ms=3118, data={}
+timestamp=[2024-06-01 15:25:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.249, duration_ms=249, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-06-01 15:25:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.950, duration_ms=950, data={}
+timestamp=[2024-06-01 15:31:45], mode=PLATFORM_CREATION, duration=0:00:12.349, duration_ms=12349, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-06-01 15:33:18], mode=APP_CREATION, duration=0:00:05.340, duration_ms=5340, data={name=Licenta, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=platform, application_type=application}
+timestamp=[2024-06-01 16:28:01], mode=PLATFORM_GENERATION, duration=0:00:09.910, duration_ms=9910, data={name=platform}
+timestamp=[2024-06-01 16:28:02], mode=BUILD, duration=0:00:00.563, duration_ms=563, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 16:28:34], mode=BUILD, duration=0:00:00.721, duration_ms=721, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 16:34:07], mode=PLATFORM_GENERATION, duration=0:00:03.837, duration_ms=3837, data={name=platform}
+timestamp=[2024-06-01 16:34:07], mode=BUILD, duration=0:00:00.094, duration_ms=94, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 16:34:20], mode=PLATFORM_GENERATION, duration=0:00:08.192, duration_ms=8192, data={name=platform}
+timestamp=[2024-06-01 16:34:21], mode=BUILD, duration=0:00:00.779, duration_ms=779, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 17:12:30], mode=PLATFORM_GENERATION, duration=0:00:03.907, duration_ms=3907, data={name=platform}
+timestamp=[2024-06-01 17:12:30], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 17:12:42], mode=PLATFORM_GENERATION, duration=0:00:08.706, duration_ms=8706, data={name=platform}
+timestamp=[2024-06-01 17:12:43], mode=BUILD, duration=0:00:01.089, duration_ms=1089, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 17:25:14], mode=PLATFORM_GENERATION, duration=0:00:03.889, duration_ms=3889, data={name=platform}
+timestamp=[2024-06-01 17:25:14], mode=BUILD, duration=0:00:00.096, duration_ms=96, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 17:25:24], mode=PLATFORM_GENERATION, duration=0:00:08.075, duration_ms=8075, data={name=platform}
+timestamp=[2024-06-01 17:25:25], mode=BUILD, duration=0:00:00.902, duration_ms=902, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 18:19:15], mode=BUILD, duration=0:00:00.643, duration_ms=643, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 18:30:43], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 18:32:32], mode=PLATFORM_GENERATION, duration=0:00:03.970, duration_ms=3970, data={name=platform}
+timestamp=[2024-06-01 18:32:32], mode=BUILD, duration=0:00:00.094, duration_ms=94, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 18:32:44], mode=PLATFORM_GENERATION, duration=0:00:09.047, duration_ms=9047, data={name=platform}
+timestamp=[2024-06-01 18:32:46], mode=BUILD, duration=0:00:01.234, duration_ms=1234, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 18:39:43], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 18:39:49], mode=PLATFORM_GENERATION, duration=0:00:03.915, duration_ms=3915, data={name=platform}
+timestamp=[2024-06-01 18:39:50], mode=BUILD, duration=0:00:00.157, duration_ms=157, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 18:39:59], mode=PLATFORM_GENERATION, duration=0:00:08.895, duration_ms=8895, data={name=platform}
+timestamp=[2024-06-01 18:40:00], mode=BUILD, duration=0:00:00.725, duration_ms=725, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 18:45:52], mode=PLATFORM_GENERATION, duration=0:00:03.835, duration_ms=3835, data={name=platform}
+timestamp=[2024-06-01 18:45:52], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 18:46:03], mode=PLATFORM_GENERATION, duration=0:00:07.814, duration_ms=7814, data={name=platform}
+timestamp=[2024-06-01 18:46:04], mode=BUILD, duration=0:00:00.590, duration_ms=590, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 18:47:04], mode=BUILD, duration=0:00:00.719, duration_ms=719, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 18:47:11], mode=PLATFORM_GENERATION, duration=0:00:03.785, duration_ms=3785, data={name=platform}
+timestamp=[2024-06-01 18:47:11], mode=BUILD, duration=0:00:00.094, duration_ms=94, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 18:47:21], mode=PLATFORM_GENERATION, duration=0:00:07.830, duration_ms=7830, data={name=platform}
+timestamp=[2024-06-01 18:47:22], mode=BUILD, duration=0:00:00.976, duration_ms=976, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 19:23:27], mode=PLATFORM_GENERATION, duration=0:00:03.835, duration_ms=3835, data={name=platform}
+timestamp=[2024-06-01 19:23:27], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 19:23:43], mode=PLATFORM_GENERATION, duration=0:00:09.381, duration_ms=9381, data={name=platform}
+timestamp=[2024-06-01 19:23:44], mode=BUILD, duration=0:00:01.348, duration_ms=1348, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 19:26:03], mode=PLATFORM_GENERATION, duration=0:00:03.837, duration_ms=3837, data={name=platform}
+timestamp=[2024-06-01 19:26:03], mode=BUILD, duration=0:00:00.094, duration_ms=94, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 19:26:15], mode=PLATFORM_GENERATION, duration=0:00:08.126, duration_ms=8126, data={name=platform}
+timestamp=[2024-06-01 19:26:16], mode=BUILD, duration=0:00:01.157, duration_ms=1157, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 19:27:24], mode=BUILD, duration=0:00:00.463, duration_ms=463, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 20:55:34], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 20:56:01], mode=PLATFORM_GENERATION, duration=0:00:03.900, duration_ms=3900, data={name=platform}
+timestamp=[2024-06-01 20:56:01], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-01 20:56:10], mode=PLATFORM_GENERATION, duration=0:00:08.872, duration_ms=8872, data={name=platform}
+timestamp=[2024-06-01 20:56:12], mode=BUILD, duration=0:00:01.283, duration_ms=1283, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-01 20:57:41], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 18:45:47], mode=WORKBENCH_START, duration=0:00:03.549, duration_ms=3549, data={}
+timestamp=[2024-06-03 18:45:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.521, duration_ms=521, data={editors_count=11, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Licenta,Licenta_system,RemoteSystemsTempFiles,platform}
+timestamp=[2024-06-03 18:45:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.871, duration_ms=871, data={}
+timestamp=[2024-06-03 20:35:03], mode=WORKBENCH_START, duration=0:00:03.824, duration_ms=3824, data={}
+timestamp=[2024-06-03 20:35:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.687, duration_ms=687, data={editors_count=11, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Licenta,Licenta_system,RemoteSystemsTempFiles,platform}
+timestamp=[2024-06-03 20:35:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.911, duration_ms=911, data={}
+timestamp=[2024-06-03 20:36:26], mode=WORKBENCH_START, duration=0:00:04.027, duration_ms=4027, data={}
+timestamp=[2024-06-03 20:36:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.519, duration_ms=519, data={editors_count=11, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Licenta,Licenta_system,RemoteSystemsTempFiles,platform}
+timestamp=[2024-06-03 20:36:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.968, duration_ms=968, data={}
+timestamp=[2024-06-03 20:37:39], mode=WORKBENCH_START, duration=0:00:03.828, duration_ms=3828, data={}
+timestamp=[2024-06-03 20:37:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.487, duration_ms=487, data={editors_count=11, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Licenta,Licenta_system,RemoteSystemsTempFiles,platform}
+timestamp=[2024-06-03 20:37:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.878, duration_ms=878, data={}
+timestamp=[2024-06-03 20:38:09], mode=PLATFORM_GENERATION, duration=0:00:09.916, duration_ms=9916, data={name=platform}
+timestamp=[2024-06-03 20:38:14], mode=BUILD, duration=0:00:00.344, duration_ms=344, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:38:28], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:39:34], mode=PLATFORM_GENERATION, duration=0:00:03.906, duration_ms=3906, data={name=platform}
+timestamp=[2024-06-03 20:39:34], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-03 20:39:45], mode=PLATFORM_GENERATION, duration=0:00:08.650, duration_ms=8650, data={name=platform}
+timestamp=[2024-06-03 20:39:46], mode=BUILD, duration=0:00:00.822, duration_ms=822, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:42:17], mode=PLATFORM_GENERATION, duration=0:00:03.896, duration_ms=3896, data={name=platform}
+timestamp=[2024-06-03 20:42:17], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-03 20:42:26], mode=PLATFORM_GENERATION, duration=0:00:07.610, duration_ms=7610, data={name=platform}
+timestamp=[2024-06-03 20:42:27], mode=BUILD, duration=0:00:00.892, duration_ms=892, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:42:47], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:43:00], mode=BUILD, duration=0:00:00.463, duration_ms=463, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:43:06], mode=PLATFORM_GENERATION, duration=0:00:03.885, duration_ms=3885, data={name=platform}
+timestamp=[2024-06-03 20:43:06], mode=BUILD, duration=0:00:00.094, duration_ms=94, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-03 20:43:18], mode=PLATFORM_GENERATION, duration=0:00:07.641, duration_ms=7641, data={name=platform}
+timestamp=[2024-06-03 20:43:19], mode=BUILD, duration=0:00:01.202, duration_ms=1202, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:46:42], mode=WORKBENCH_START, duration=0:00:03.648, duration_ms=3648, data={}
+timestamp=[2024-06-03 20:46:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.516, duration_ms=516, data={editors_count=13, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Licenta,Licenta_system,RemoteSystemsTempFiles,platform}
+timestamp=[2024-06-03 20:46:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.918, duration_ms=918, data={}
+timestamp=[2024-06-03 20:50:45], mode=BUILD, duration=0:00:00.615, duration_ms=615, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:54:16], mode=PLATFORM_GENERATION, duration=0:00:08.768, duration_ms=8768, data={name=platform}
+timestamp=[2024-06-03 20:54:16], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-03 20:54:26], mode=PLATFORM_GENERATION, duration=0:00:07.770, duration_ms=7770, data={name=platform}
+timestamp=[2024-06-03 20:54:27], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:56:34], mode=PLATFORM_GENERATION, duration=0:00:03.839, duration_ms=3839, data={name=platform}
+timestamp=[2024-06-03 20:56:34], mode=BUILD, duration=0:00:00.094, duration_ms=94, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-03 20:56:45], mode=PLATFORM_GENERATION, duration=0:00:07.773, duration_ms=7773, data={name=platform}
+timestamp=[2024-06-03 20:56:46], mode=BUILD, duration=0:00:01.216, duration_ms=1216, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 20:58:29], mode=PLATFORM_GENERATION, duration=0:00:03.835, duration_ms=3835, data={name=platform}
+timestamp=[2024-06-03 20:58:29], mode=BUILD, duration=0:00:00.094, duration_ms=94, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-03 20:58:40], mode=PLATFORM_GENERATION, duration=0:00:07.710, duration_ms=7710, data={name=platform}
+timestamp=[2024-06-03 20:58:41], mode=BUILD, duration=0:00:01.207, duration_ms=1207, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-03 21:09:19], mode=PLATFORM_GENERATION, duration=0:00:03.904, duration_ms=3904, data={name=platform}
+timestamp=[2024-06-03 21:09:20], mode=BUILD, duration=0:00:00.096, duration_ms=96, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-03 21:09:30], mode=PLATFORM_GENERATION, duration=0:00:07.698, duration_ms=7698, data={name=platform}
+timestamp=[2024-06-03 21:09:31], mode=BUILD, duration=0:00:01.353, duration_ms=1353, data={name=Licenta, configuration=Debug, clean_build=false}
+timestamp=[2024-06-05 10:47:23], mode=WORKBENCH_START, duration=0:00:05.023, duration_ms=5023, data={}
+timestamp=[2024-06-05 10:47:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.609, duration_ms=609, data={editors_count=15, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Licenta,Licenta_system,RemoteSystemsTempFiles,platform}
+timestamp=[2024-06-05 10:47:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.199, duration_ms=1199, data={}
+timestamp=[2024-06-05 11:27:31], mode=WORKBENCH_START, duration=0:00:04.608, duration_ms=4608, data={}
+timestamp=[2024-06-05 11:27:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.526, duration_ms=526, data={editors_count=15, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Licenta,Licenta_system,RemoteSystemsTempFiles,platform}
+timestamp=[2024-06-05 11:27:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.112, duration_ms=1112, data={}
+timestamp=[2024-06-05 13:50:36], mode=PLATFORM_GENERATION, duration=0:00:08.478, duration_ms=8478, data={name=platform}
+timestamp=[2024-06-05 13:50:36], mode=BUILD, duration=0:00:00.105, duration_ms=105, data={name=Licenta, configuration=Debug, clean_build=true}
+timestamp=[2024-06-05 13:50:48], mode=PLATFORM_GENERATION, duration=0:00:09.434, duration_ms=9434, data={name=platform}
+timestamp=[2024-06-05 13:50:55], mode=BUILD, duration=0:00:01.537, duration_ms=1537, data={name=Licenta, configuration=Debug, clean_build=false}
