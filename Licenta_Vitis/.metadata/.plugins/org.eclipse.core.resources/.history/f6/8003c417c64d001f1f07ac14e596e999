@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="LicentaStream" location="C:/Users/patri/Desktop/LicentaStagii/1/Vitis/LicentaStream" platform="C:/Users/patri/Desktop/LicentaStagii/1/Vitis/LicentaPlatform/export/LicentaPlatform/LicentaPlatform.xpfm" platformUID="xilinx:zedboard:VideoPlatform:0.0(custom)" systemProject="LicentaStream_system" sysConfig="LicentaPlatform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="798de3f0c6f38d3300fbc1e78528e54d">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1313559074">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.264005942" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

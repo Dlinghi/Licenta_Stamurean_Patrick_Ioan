@@ -1,0 +1,6 @@
+18:50:52 **** Build of configuration Emulation-SW for project LicentaVideo_system ****
+make all 
+Package not supported, if the system project is in Emulation Target, and only Baremetal Or Embedded Linux Applications present
+
+18:50:52 Build Finished (took 99ms)
+
