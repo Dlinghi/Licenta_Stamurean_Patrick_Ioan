@@ -1,4 +1,4 @@
-19:17:44 **** Incremental Build of configuration Debug for project LicentaStream ****
+15:00:03 **** Incremental Build of configuration Debug for project LicentaStream ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -17,9 +17,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size LicentaStream.elf  |tee "LicentaStream.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 103909	   3092	3201088	3308089	 327a39	LicentaStream.elf
+ 103905	   3092	3201088	3308085	 327a35	LicentaStream.elf
 'Finished building: LicentaStream.elf.size'
 ' '
 
-19:17:46 Build Finished (took 1s.663ms)
+15:00:04 Build Finished (took 718ms)
 

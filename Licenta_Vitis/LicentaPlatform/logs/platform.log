@@ -5945,3 +5945,803 @@ C:/Users/patri/Desktop/LicentaStagii/2/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl
 
 TRACE::2024-07-29.19:18:01::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/2/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
 TRACE::2024-07-29.19:18:01::SCWReader::No isolation master present  
+TRACE::2024-07-30.14:54:55::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:55::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:55::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:56::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:56::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:56::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:56::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened new HwDB with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWReader::Active system found as  LicentaPlatform
+TRACE::2024-07-30.14:54:58::SCWReader::Handling sysconfig LicentaPlatform
+TRACE::2024-07-30.14:54:58::SCWDomain::checking for install qemu data   : 
+TRACE::2024-07-30.14:54:58::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2024.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-07-30.14:54:58::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2024.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-07-30.14:54:58::SCWMssOS::No sw design opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::mss exists loading the mss file  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Opened the sw design from mss  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Adding the swdes entry C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-07-30.14:54:58::SCWMssOS::updating the scw layer about changes
+TRACE::2024-07-30.14:54:58::SCWMssOS::Opened the sw design.  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS:: library already available in sw design:  xilffs:5.2
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS:: library already available in sw design:  xilrsa:1.8
+TRACE::2024-07-30.14:54:58::SCWMssOS::Saving the mss changes C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Commit changes completed.
+TRACE::2024-07-30.14:54:58::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-07-30.14:54:58::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWReader::No isolation master present  
+TRACE::2024-07-30.14:54:58::SCWDomain::checking for install qemu data   : 
+TRACE::2024-07-30.14:54:58::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2024.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-07-30.14:54:58::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2024.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::No sw design opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::mss exists loading the mss file  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Opened the sw design from mss  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Adding the swdes entry C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-07-30.14:54:58::SCWMssOS::updating the scw layer about changes
+TRACE::2024-07-30.14:54:58::SCWMssOS::Opened the sw design.  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS:: library already available in sw design:  lwip220:1.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Saving the mss changes C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Commit changes completed.
+TRACE::2024-07-30.14:54:58::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-07-30.14:54:58::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWReader::No isolation master present  
+LOG::2024-07-30.14:54:58::SCWPlatform::Started generating the artifacts platform LicentaPlatform
+TRACE::2024-07-30.14:54:58::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-07-30.14:54:58::SCWPlatform::Started generating the artifacts for system configuration LicentaPlatform
+LOG::2024-07-30.14:54:58::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-07-30.14:54:58::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-07-30.14:54:58::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-07-30.14:54:58::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-07-30.14:54:58::SCWSystem::Checking the domain standalone_domain
+LOG::2024-07-30.14:54:58::SCWSystem::Not a boot domain 
+LOG::2024-07-30.14:54:58::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-07-30.14:54:58::SCWDomain::Generating domain artifcats
+TRACE::2024-07-30.14:54:58::SCWMssOS::Generating standalone artifcats
+TRACE::2024-07-30.14:54:58::SCWMssOS::Copying the qemu file from  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/resources/LicentaPlatform/standalone_domain/qemu_args.txt To C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/export/LicentaPlatform/sw/LicentaPlatform/qemu/
+TRACE::2024-07-30.14:54:58::SCWMssOS::Copying the qemu file from  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/resources/LicentaPlatform/standalone_domain/qemu_args.txt To C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/export/LicentaPlatform/sw/LicentaPlatform/standalone_domain/qemu/
+TRACE::2024-07-30.14:54:58::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Completed writing the mss file at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-07-30.14:54:58::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-07-30.14:54:58::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-07-30.14:54:58::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-07-30.14:54:58::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-07-30.14:54:58::SCWMssOS::Copying to export directory.
+TRACE::2024-07-30.14:54:58::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-07-30.14:54:58::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-07-30.14:54:58::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-07-30.14:54:58::SCWSystem::Completed Processing the sysconfig LicentaPlatform
+LOG::2024-07-30.14:54:58::SCWPlatform::Completed generating the artifacts for system configuration LicentaPlatform
+TRACE::2024-07-30.14:54:58::SCWPlatform::Started preparing the platform 
+TRACE::2024-07-30.14:54:58::SCWSystem::Writing the bif file for system config LicentaPlatform
+TRACE::2024-07-30.14:54:58::SCWSystem::dir created 
+TRACE::2024-07-30.14:54:58::SCWSystem::Writing the bif 
+TRACE::2024-07-30.14:54:58::SCWPlatform::Started writing the spfm file 
+TRACE::2024-07-30.14:54:58::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-07-30.14:54:58::SCWPlatform::Completed generating the platform
+TRACE::2024-07-30.14:54:58::SCWMssOS::Saving the mss changes C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Commit changes completed.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Saving the mss changes C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-30.14:54:58::SCWMssOS::Commit changes completed.
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:58::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:58::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:58::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:58::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:58::SCWWriter::formatted JSON is {
+	"platformName":	"LicentaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"LicentaPlatform",
+	"platHandOff":	"C:/Users/patri/Desktop/LicentaStagii/1/project_1/Licenta_Design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Licenta_Design_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"LicentaPlatform",
+	"systems":	[{
+			"systemName":	"LicentaPlatform",
+			"systemDesc":	"LicentaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"LicentaPlatform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5336142f68aeb482fe1127a110feb229",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.2", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/LicentaPlatform/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/LicentaPlatform/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"d22a809279fd3801db08940a3f0be631",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip220:1.0"],
+					"libOptions":	{
+						"lwip220":	{
+							"phy_link_speed":	"CONFIG_LINKSPEED1000",
+							"libOptionNames":	["phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip220"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-07-30.14:54:58::SCWPlatform::updated the xpfm file.
+TRACE::2024-07-30.14:54:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:54:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:54:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:54:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:54:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:54:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:54:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:54:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/3/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:56::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:56::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:56::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:57::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:57::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:57::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:57::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened new HwDB with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWReader::Active system found as  LicentaPlatform
+TRACE::2024-07-30.14:59:59::SCWReader::Handling sysconfig LicentaPlatform
+TRACE::2024-07-30.14:59:59::SCWDomain::checking for install qemu data   : 
+TRACE::2024-07-30.14:59:59::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2024.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-07-30.14:59:59::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2024.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-07-30.14:59:59::SCWMssOS::No sw design opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::mss exists loading the mss file  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::Opened the sw design from mss  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::Adding the swdes entry C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-07-30.14:59:59::SCWMssOS::updating the scw layer about changes
+TRACE::2024-07-30.14:59:59::SCWMssOS::Opened the sw design.  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS:: library already available in sw design:  xilffs:5.2
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS:: library already available in sw design:  xilrsa:1.8
+TRACE::2024-07-30.14:59:59::SCWMssOS::Saving the mss changes C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-30.14:59:59::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-30.14:59:59::SCWMssOS::Commit changes completed.
+TRACE::2024-07-30.14:59:59::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-07-30.14:59:59::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWReader::No isolation master present  
+TRACE::2024-07-30.14:59:59::SCWDomain::checking for install qemu data   : 
+TRACE::2024-07-30.14:59:59::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2024.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-07-30.14:59:59::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2024.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::No sw design opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::mss exists loading the mss file  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::Opened the sw design from mss  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::Adding the swdes entry C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-07-30.14:59:59::SCWMssOS::updating the scw layer about changes
+TRACE::2024-07-30.14:59:59::SCWMssOS::Opened the sw design.  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS:: library already available in sw design:  lwip220:1.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::Saving the mss changes C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-30.14:59:59::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-30.14:59:59::SCWMssOS::Commit changes completed.
+TRACE::2024-07-30.14:59:59::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-07-30.14:59:59::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWReader::No isolation master present  
+LOG::2024-07-30.14:59:59::SCWPlatform::Started generating the artifacts platform LicentaPlatform
+TRACE::2024-07-30.14:59:59::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-07-30.14:59:59::SCWPlatform::Started generating the artifacts for system configuration LicentaPlatform
+LOG::2024-07-30.14:59:59::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-07-30.14:59:59::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-07-30.14:59:59::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-07-30.14:59:59::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-07-30.14:59:59::SCWSystem::Checking the domain standalone_domain
+LOG::2024-07-30.14:59:59::SCWSystem::Not a boot domain 
+LOG::2024-07-30.14:59:59::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-07-30.14:59:59::SCWDomain::Generating domain artifcats
+TRACE::2024-07-30.14:59:59::SCWMssOS::Generating standalone artifcats
+TRACE::2024-07-30.14:59:59::SCWMssOS::Copying the qemu file from  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/resources/LicentaPlatform/standalone_domain/qemu_args.txt To C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/export/LicentaPlatform/sw/LicentaPlatform/qemu/
+TRACE::2024-07-30.14:59:59::SCWMssOS::Copying the qemu file from  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/resources/LicentaPlatform/standalone_domain/qemu_args.txt To C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/export/LicentaPlatform/sw/LicentaPlatform/standalone_domain/qemu/
+TRACE::2024-07-30.14:59:59::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.14:59:59::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.14:59:59::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.14:59:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.14:59:59::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.14:59:59::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::Completed writing the mss file at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-07-30.14:59:59::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.14:59:59::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-07-30.14:59:59::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-07-30.14:59:59::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-07-30.14:59:59::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-07-30.14:59:59::SCWMssOS::Copying to export directory.
+TRACE::2024-07-30.15:00:00::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-07-30.15:00:00::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-07-30.15:00:00::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-07-30.15:00:00::SCWSystem::Completed Processing the sysconfig LicentaPlatform
+LOG::2024-07-30.15:00:00::SCWPlatform::Completed generating the artifacts for system configuration LicentaPlatform
+TRACE::2024-07-30.15:00:00::SCWPlatform::Started preparing the platform 
+TRACE::2024-07-30.15:00:00::SCWSystem::Writing the bif file for system config LicentaPlatform
+TRACE::2024-07-30.15:00:00::SCWSystem::dir created 
+TRACE::2024-07-30.15:00:00::SCWSystem::Writing the bif 
+TRACE::2024-07-30.15:00:00::SCWPlatform::Started writing the spfm file 
+TRACE::2024-07-30.15:00:00::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-07-30.15:00:00::SCWPlatform::Completed generating the platform
+TRACE::2024-07-30.15:00:00::SCWMssOS::Saving the mss changes C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.15:00:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-30.15:00:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-30.15:00:00::SCWMssOS::Commit changes completed.
+TRACE::2024-07-30.15:00:00::SCWMssOS::Saving the mss changes C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.15:00:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-30.15:00:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-30.15:00:00::SCWMssOS::Commit changes completed.
+TRACE::2024-07-30.15:00:00::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:00::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:00::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:00::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.15:00:00::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:00::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.15:00:00::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.15:00:00::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.15:00:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.15:00:00::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.15:00:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.15:00:00::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-30.15:00:00::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:00::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:00::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:00::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.15:00:00::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:00::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.15:00:00::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.15:00:00::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.15:00:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.15:00:00::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.15:00:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.15:00:00::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.15:00:00::SCWWriter::formatted JSON is {
+	"platformName":	"LicentaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"LicentaPlatform",
+	"platHandOff":	"C:/Users/patri/Desktop/LicentaStagii/1/project_1/Licenta_Design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Licenta_Design_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"LicentaPlatform",
+	"systems":	[{
+			"systemName":	"LicentaPlatform",
+			"systemDesc":	"LicentaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"LicentaPlatform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5336142f68aeb482fe1127a110feb229",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.2", "xilrsa:1.8"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/LicentaPlatform/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/LicentaPlatform/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"d22a809279fd3801db08940a3f0be631",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip220:1.0"],
+					"libOptions":	{
+						"lwip220":	{
+							"phy_link_speed":	"CONFIG_LINKSPEED1000",
+							"libOptionNames":	["phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip220"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-07-30.15:00:00::SCWPlatform::updated the xpfm file.
+TRACE::2024-07-30.15:00:01::SCWPlatform::Trying to open the hw design at C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:01::SCWPlatform::DSA given C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:01::SCWPlatform::DSA absoulate path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:01::SCWPlatform::DSA directory C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw
+TRACE::2024-07-30.15:00:01::SCWPlatform:: Platform Path C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/hw/Licenta_Design_wrapper.xsa
+TRACE::2024-07-30.15:00:01::SCWPlatform:: Unique name xilinx:zedboard:VideoPlatform:0.0
+TRACE::2024-07-30.15:00:01::SCWPlatform::Trying to set the existing hwdb with name Licenta_Design_wrapper
+TRACE::2024-07-30.15:00:01::SCWPlatform::Opened existing hwdb Licenta_Design_wrapper
+TRACE::2024-07-30.15:00:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-30.15:00:01::SCWMssOS::Checking the sw design at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-30.15:00:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-30.15:00:01::SCWMssOS::Sw design exists and opened at  C:/Users/patri/Desktop/LicentaStagii/4/Vitis/LicentaPlatform/ps7_cortexa9_0/standalone_domain/bsp/system.mss

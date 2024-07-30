@@ -33,3 +33,5 @@ platform generate
 domain active {zynq_fsbl}
 bsp reload
 platform active {LicentaPlatform}
+platform generate -domains 
+platform generate -domains 

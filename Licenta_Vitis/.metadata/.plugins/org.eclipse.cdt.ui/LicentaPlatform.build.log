@@ -1,2 +1,13 @@
-Nothing to build in platform 'LicentaPlatform'
+14:59:55 **** Incremental Build of project LicentaPlatform ****
+buildplatform.bat 49957 LicentaPlatform no_domain_build 
+'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+'\gnuwin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+XSDB Server Channel: tcfchan#1
+Reading the platform  : "LicentaPlatform"
+
+15:00:01 Build Finished (took 5s.564ms)
 
