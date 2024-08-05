@@ -1,6 +1,6 @@
-15:00:04 **** Incremental Build of configuration Emulation-SW for project LicentaStream_system ****
+18:23:32 **** Incremental Build of configuration Emulation-SW for project LicentaStream_system ****
 make all 
 Package not supported, if the system project is in Emulation Target, and only Baremetal Or Embedded Linux Applications present
 
-15:00:04 Build Finished (took 95ms)
+18:23:32 Build Finished (took 81ms)
 

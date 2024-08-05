@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="C:\Users\patri\Desktop\LicentaStagii\1\Vitis\LicentaPlatform\export\LicentaPlatform;C:\Users\patri\Desktop\LicentaStagii\3\Vitis\LicentaPlatform\export\LicentaPlatform;C:\Users\patri\Desktop\LicentaStagii\4\Vitis\LicentaPlatform\export\LicentaPlatform"/>
+	<item key="sdx.custom.platform.repository.locations" value="C:\Users\patri\Desktop\LicentaStagii\1\Vitis\LicentaPlatform\export\LicentaPlatform;C:\Users\patri\Desktop\LicentaStagii\3\Vitis\LicentaPlatform\export\LicentaPlatform;C:\Users\patri\Desktop\LicentaStagii\4\Vitis\LicentaPlatform\export\LicentaPlatform;C:\Users\patri\Desktop\LicentaStagii\5_Watchdog\Vitis\Licenta_Design_wrapper\export\Licenta_Design_wrapper;C:\Users\patri\Desktop\LicentaStagii\6_GPIO\Vitis\Licenta_Design_wrapper\export\Licenta_Design_wrapper"/>
 </section>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="IP4_ADDR"/>
+		<item key="selection" value="initialize_watchdog"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="ș"/>
+			<item value="initialize_watchdog"/>
 			<item value="IP4_ADDR"/>
 			<item value="dma"/>
 			<item value="init_pla"/>
@@ -19,6 +21,7 @@
 			<item value="UDP_CONN_PORT"/>
 		</list>
 		<list key="replacehistory">
+			<item value="s"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

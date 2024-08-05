@@ -1,0 +1,309 @@
+/*========================================[Includes]========================================*/
+#include "xparameters.h"
+#include "xaxidma.h"
+#include "xscugic.h"
+#include "xwdttb.h"
+#include "xil_exception.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "lwip/init.h"
+#include "lwip/netif.h"
+#include "lwip/tcpip.h"
+#include "netif/xadapter.h"
+#include "lwip/udp.h"
+#include "platform_config.h"
+#include "platform.h"
+#include "xil_cache.h"
+#include <string.h>
+#include <stdlib.h>  // For malloc and free
+
+/*========================================[Definitions]========================================*/
+#define DMA_DEV_ID          XPAR_AXIDMA_0_DEVICE_ID
+#define INTC_DEVICE_ID      XPAR_SCUGIC_SINGLE_DEVICE_ID
+#define RX_INTR_ID          XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
+#define TX_INTR_ID          XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR
+#define WDT_DEV_ID          XPAR_AXI_TIMEBASE_WDT_0_DEVICE_ID
+#define WDT_INTR_ID         XPAR_FABRIC_AXI_TIMEBASE_WDT_0_WDT_INTERRUPT_INTR
+#define WDT_TIMEOUT         100000000  // Adjust the timeout period for your application
+
+/*========================================[Global Variables]========================================*/
+XAxiDma AxiDma;
+XScuGic Intc;
+XWdtTb WdtTb;
+
+volatile int TxDone;
+volatile int RxDone;
+volatile int Error;
+
+struct netif server_netif;
+struct netif *echo_netif;
+
+/*========================================[Function Declarations]========================================*/
+void udp_recv_callback(void *arg, struct udp_pcb *pcb, struct pbuf *p, const ip_addr_t *addr, u16_t port);
+int initialize_dma(void);
+int init_interrupt_system(void);
+void WdtTb_IntrHandler(void *CallBackRef);
+
+/******************************************************************************************************************
+    Function Name:          udp_recv_callback
+
+    Functionalitate:        UDP Receive Callback
+                            - This function is called whenever a UDP packet is received.
+                            - Processes the received data using DMA and sends back the processed data.
+******************************************************************************************************************/
+void udp_recv_callback(void *arg, struct udp_pcb *pcb, struct pbuf *p, const ip_addr_t *addr, u16_t port) {
+    if (p != NULL) {
+        // Allocate buffer for processed data
+        void *processed_buffer = malloc(p->len);
+        if (processed_buffer == NULL) {
+            xil_printf("Memory allocation failed\r\n");
+            pbuf_free(p);
+            return;
+        }
+
+        // Flush cache to ensure data coherence
+        Xil_DCacheFlushRange((UINTPTR)p->payload, p->len);
+
+        // Send data to DMA
+        if (XAxiDma_SimpleTransfer(&AxiDma, (UINTPTR)p->payload, p->len, XAXIDMA_DMA_TO_DEVICE) != XST_SUCCESS) {
+            xil_printf("DMA transfer to device failed\r\n");
+            free(processed_buffer);
+            pbuf_free(p);
+            return;
+        }
+
+        // Wait for DMA transfer to complete
+        while (XAxiDma_Busy(&AxiDma, XAXIDMA_DMA_TO_DEVICE));
+
+        // Read back processed data from custom IP via DMA
+        if (XAxiDma_SimpleTransfer(&AxiDma, (UINTPTR)processed_buffer, p->len, XAXIDMA_DEVICE_TO_DMA) != XST_SUCCESS) {
+            xil_printf("DMA transfer from device failed\r\n");
+            free(processed_buffer);
+            pbuf_free(p);
+            return;
+        }
+
+        // Wait for DMA transfer to complete
+        while (XAxiDma_Busy(&AxiDma, XAXIDMA_DEVICE_TO_DMA));
+
+        // Invalidate cache to ensure data coherence
+        Xil_DCacheInvalidateRange((UINTPTR)processed_buffer, p->len);
+
+        // Send processed data back to PC
+        struct pbuf *q = pbuf_alloc(PBUF_TRANSPORT, p->len, PBUF_RAM);
+        if (q != NULL) {
+            memcpy(q->payload, processed_buffer, p->len);
+            udp_sendto(pcb, q, addr, port);
+            pbuf_free(q);
+        } else {
+            xil_printf("pbuf allocation failed\r\n");
+        }
+
+        // Free allocated memory
+        pbuf_free(p);
+        free(processed_buffer);
+
+        // Restart watchdog timer after successful processing
+        XWdtTb_RestartWdt(&WdtTb);
+    }
+}
+
+/******************************************************************************************************************
+    Function Name:          WdtTb_IntrHandler
+
+    Functionalitate:        Watchdog Timer Interrupt Handler
+                            - This function is called when the watchdog timer expires.
+                            - It will print a message indicating the watchdog expiration.
+******************************************************************************************************************/
+void WdtTb_IntrHandler(void *CallBackRef) {
+    XWdtTb *WdtTbPtr = (XWdtTb *)CallBackRef;
+    xil_printf("Watchdog Timer expired! No data transfer activity.\r\n");
+    
+    // Reset the system or take necessary action
+    // For example, restart the watchdog timer to prevent system reset for demo purposes
+    XWdtTb_RestartWdt(WdtTbPtr);
+}
+
+/******************************************************************************************************************
+    Function Name:          init_interrupt_system
+
+    Functionalitate:        Initialize Interrupt System
+                            - Initializes the interrupt controller and connects the interrupt handlers.
+******************************************************************************************************************/
+int init_interrupt_system(void) {
+    XScuGic_Config *IntcConfig;
+    int Status;
+
+    // Initialize the interrupt controller driver
+    IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+    if (IntcConfig == NULL) {
+        xil_printf("XScuGic_LookupConfig failed\r\n");
+        return XST_FAILURE;
+    }
+
+    Status = XScuGic_CfgInitialize(&Intc, IntcConfig, IntcConfig->CpuBaseAddress);
+    if (Status != XST_SUCCESS) {
+        xil_printf("XScuGic_CfgInitialize failed\r\n");
+        return XST_FAILURE;
+    }
+
+    // Connect the DMA TX interrupt
+    Status = XScuGic_Connect(&Intc, TX_INTR_ID, (Xil_ExceptionHandler)XAxiDma_SimpleTransfer, &AxiDma);
+    if (Status != XST_SUCCESS) {
+        xil_printf("Failed to connect DMA TX interrupt\r\n");
+        return XST_FAILURE;
+    }
+
+    // Connect the DMA RX interrupt
+    Status = XScuGic_Connect(&Intc, RX_INTR_ID, (Xil_ExceptionHandler)XAxiDma_SimpleTransfer, &AxiDma);
+    if (Status != XST_SUCCESS) {
+        xil_printf("Failed to connect DMA RX interrupt\r\n");
+        return XST_FAILURE;
+    }
+
+    // Connect the watchdog timer interrupt handler
+    Status = XScuGic_Connect(&Intc, WDT_INTR_ID, (Xil_ExceptionHandler)WdtTb_IntrHandler, (void *)&WdtTb);
+    if (Status != XST_SUCCESS) {
+        xil_printf("Failed to connect Watchdog Timer interrupt\r\n");
+        return XST_FAILURE;
+    }
+
+    // Enable interrupts
+    XScuGic_Enable(&Intc, TX_INTR_ID);
+    XScuGic_Enable(&Intc, RX_INTR_ID);
+    XScuGic_Enable(&Intc, WDT_INTR_ID);
+
+    // Initialize the exception table and register the interrupt controller handler
+    Xil_ExceptionInit();
+    Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT, (Xil_ExceptionHandler)XScuGic_InterruptHandler, &Intc);
+    Xil_ExceptionEnable();
+
+    return XST_SUCCESS;
+}
+
+/******************************************************************************************************************
+    Function Name:          initialize_dma
+
+    Functionalitate:        Initialize DMA
+                            - Initializes the AXI DMA engine.
+******************************************************************************************************************/
+int initialize_dma(void) {
+    XAxiDma_Config *CfgPtr;
+    int Status;
+
+    // Initialize the XAxiDma device.
+    CfgPtr = XAxiDma_LookupConfig(DMA_DEV_ID);
+    if (!CfgPtr) {
+        xil_printf("No config found for %d\r\n", DMA_DEV_ID);
+        return XST_FAILURE;
+    }
+
+    Status = XAxiDma_CfgInitialize(&AxiDma, CfgPtr);
+    if (Status != XST_SUCCESS) {
+        xil_printf("Initialization failed %d\r\n", Status);
+        return XST_FAILURE;
+    }
+
+    // Check for scatter-gather mode
+    if (XAxiDma_HasSg(&AxiDma)) {
+        xil_printf("Device configured as SG mode\r\n");
+        return XST_FAILURE;
+    }
+
+    // Disable interrupts
+    XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+    XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DMA_TO_DEVICE);
+
+    return XST_SUCCESS;
+}
+
+/******************************************************************************************************************
+    Function Name:          main
+
+    Functionalitate:        Main Function
+                            - Initializes the platform, DMA, interrupt system, and network interface.
+                            - Sets up the UDP callback and enters an infinite loop to process incoming packets.
+******************************************************************************************************************/
+int main(void) {
+    ip_addr_t ipaddr, netmask, gw;
+    struct udp_pcb *pcb;
+
+    // Initialize platform
+    init_platform();
+
+    xil_printf("\r\n--- Starting Video Stream Processing with Watchdog ---\r\n");
+
+    // Initialize DMA
+    if (initialize_dma() != XST_SUCCESS) {
+        xil_printf("DMA Initialization failed\r\n");
+        return XST_FAILURE;
+    }
+
+    // Initialize Interrupt System
+    if (init_interrupt_system() != XST_SUCCESS) {
+        xil_printf("Interrupt System Initialization failed\r\n");
+        return XST_FAILURE;
+    }
+
+    // Initialize Watchdog Timer
+    XWdtTb_Config *WdtConfig = XWdtTb_LookupConfig(WDT_DEV_ID);
+    if (WdtConfig == NULL) {
+        xil_printf("No config found for WDT %d\r\n", WDT_DEV_ID);
+        return XST_FAILURE;
+    }
+
+    if (XWdtTb_CfgInitialize(&WdtTb, WdtConfig, WdtConfig->BaseAddress) != XST_SUCCESS) {
+        xil_printf("WDT Initialization failed\r\n");
+        return XST_FAILURE;
+    }
+
+    // Set the watchdog timer interval (adjust the value as needed)
+    XWdtTb_SetTimerPeriod(&WdtTb, WDT_TIMEOUT);
+
+    // Enable the watchdog timer
+    XWdtTb_Start(&WdtTb);
+
+    // Initialize lwIP stack
+    lwip_init();
+
+    // Set IP address, netmask, and gateway
+    IP4_ADDR(&ipaddr, 192, 168, 1, 10);
+    IP4_ADDR(&netmask, 255, 255, 255, 0);
+    IP4_ADDR(&gw, 192, 168, 1, 1);
+
+    // Add network interface
+    echo_netif = &server_netif;
+    if (!xemac_add(echo_netif, &ipaddr, &netmask, &gw, NULL, PLATFORM_EMAC_BASEADDR)) {
+        xil_printf("Error adding network interface\r\n");
+        return -1;
+    }
+    netif_set_default(echo_netif);
+    netif_set_up(echo_netif);
+
+    xil_printf("Network setup completed\r\n");
+
+    // Create a new UDP PCB (Protocol Control Block)
+    pcb = udp_new();
+    if (!pcb) {
+        xil_printf("Error creating UDP PCB\r\n");
+        return -1;
+    }
+
+    // Bind the UDP socket to port 5001
+    if (udp_bind(pcb, IP_ADDR_ANY, 5001) != ERR_OK) {
+        xil_printf("UDP bind failed\r\n");
+        return -1;
+    }
+
+    // Register the UDP receive callback
+    udp_recv(pcb, udp_recv_callback, NULL);
+
+    // Infinite loop to process incoming packets
+    while (1) {
+        xemacif_input(echo_netif);
+    }
+
+    // Clean up platform on exit
+    cleanup_platform();
+    return 0;
+}

@@ -1,13 +1,0 @@
-2024-07-30T14:59:55.603141300255-14:59:55 **** Incremental Build of project LicentaPlatform ****
-000-buildplatform.bat 49957 LicentaPlatform no_domain_build 
-000-'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
-000-operable program or batch file.
-000-'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
-000-operable program or batch file.
-000-'\gnuwin\bin\' is not recognized as an internal or external command,
-000-operable program or batch file.
-000-XSDB Server Channel: tcfchan#1
-000-Reading the platform  : "LicentaPlatform"
-00255-
-15:00:01 Build Finished (took 5s.564ms)
-

@@ -54,3 +54,75 @@ timestamp=[2024-07-30 14:59:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00
 timestamp=[2024-07-30 15:00:01], mode=PLATFORM_GENERATION, duration=0:00:05.750, duration_ms=5750, data={name=LicentaPlatform}
 timestamp=[2024-07-30 15:00:04], mode=BUILD, duration=0:00:00.732, duration_ms=732, data={name=LicentaStream, configuration=Debug, clean_build=false}
 timestamp=[2024-07-30 15:00:04], mode=BUILD, duration=0:00:00.105, duration_ms=105, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-07-30 15:46:48], mode=WORKBENCH_START, duration=0:00:05.763, duration_ms=5763, data={}
+timestamp=[2024-07-30 15:46:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.676, duration_ms=676, data={editors_count=16, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=LicentaPlatform,LicentaStream,LicentaStream_system,RemoteSystemsTempFiles}
+timestamp=[2024-07-30 15:46:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.877, duration_ms=877, data={}
+timestamp=[2024-08-04 12:01:10], mode=WORKBENCH_START, duration=0:00:06.203, duration_ms=6203, data={}
+timestamp=[2024-08-04 12:01:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.590, duration_ms=590, data={editors_count=16, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=LicentaPlatform,LicentaStream,LicentaStream_system,RemoteSystemsTempFiles}
+timestamp=[2024-08-04 12:01:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.852, duration_ms=852, data={}
+timestamp=[2024-08-04 12:02:38], mode=WORKBENCH_START, duration=0:00:05.338, duration_ms=5338, data={}
+timestamp=[2024-08-04 12:02:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.636, duration_ms=636, data={editors_count=16, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=LicentaPlatform,LicentaStream,LicentaStream_system,RemoteSystemsTempFiles}
+timestamp=[2024-08-04 12:02:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.913, duration_ms=913, data={}
+timestamp=[2024-08-04 12:55:47], mode=BUILD, duration=0:00:00.878, duration_ms=878, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 12:56:50], mode=PLATFORM_CREATION, duration=0:00:13.049, duration_ms=13049, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-08-04 12:57:38], mode=PLATFORM_GENERATION, duration=0:00:12.838, duration_ms=12838, data={name=LicentaPlatform}
+timestamp=[2024-08-04 12:57:42], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:05:01], mode=PLATFORM_GENERATION, duration=0:00:04.246, duration_ms=4246, data={name=LicentaPlatform}
+timestamp=[2024-08-04 13:05:06], mode=BUILD, duration=0:00:00.164, duration_ms=164, data={name=LicentaStream, configuration=Debug, clean_build=true}
+timestamp=[2024-08-04 13:05:06], mode=BUILD, duration=0:00:00.092, duration_ms=92, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=true}
+timestamp=[2024-08-04 13:05:08], mode=BUILD, duration=0:00:00.287, duration_ms=287, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:06:39], mode=PLATFORM_GENERATION, duration=0:00:02.153, duration_ms=2153, data={name=LicentaPlatform}
+timestamp=[2024-08-04 13:07:02], mode=PLATFORM_GENERATION, duration=0:00:18.529, duration_ms=18529, data={name=LicentaPlatform}
+timestamp=[2024-08-04 13:07:02], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=LicentaStream, configuration=Debug, clean_build=true}
+timestamp=[2024-08-04 13:07:02], mode=BUILD, duration=0:00:00.106, duration_ms=106, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=true}
+timestamp=[2024-08-04 13:07:06], mode=BUILD, duration=0:00:00.295, duration_ms=295, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:09:27], mode=APP_CREATION, duration=0:00:18.877, duration_ms=18877, data={name=LicentaStream, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=Licenta_Design_wrapper, application_type=application}
+timestamp=[2024-08-04 13:09:44], mode=PLATFORM_GENERATION, duration=0:00:12.656, duration_ms=12656, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 13:11:07], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:11:58], mode=PLATFORM_GENERATION, duration=0:00:12.696, duration_ms=12696, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 13:11:59], mode=BUILD, duration=0:00:00.541, duration_ms=541, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:16:54], mode=BUILD, duration=0:00:00.651, duration_ms=651, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:18:20], mode=BUILD, duration=0:00:00.467, duration_ms=467, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:24:48], mode=BUILD, duration=0:00:00.660, duration_ms=660, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:24:48], mode=BUILD, duration=0:00:00.106, duration_ms=106, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-08-04 13:32:17], mode=PLATFORM_GENERATION, duration=0:00:04.199, duration_ms=4199, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 13:32:17], mode=BUILD, duration=0:00:00.096, duration_ms=96, data={name=LicentaStream, configuration=Debug, clean_build=true}
+timestamp=[2024-08-04 13:32:17], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=true}
+timestamp=[2024-08-04 13:32:36], mode=PLATFORM_GENERATION, duration=0:00:16.322, duration_ms=16322, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 13:32:37], mode=BUILD, duration=0:00:01.090, duration_ms=1090, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:32:38], mode=BUILD, duration=0:00:00.103, duration_ms=103, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-08-04 13:36:31], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:41:45], mode=BUILD, duration=0:00:00.360, duration_ms=360, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:45:41], mode=BUILD, duration=0:00:00.596, duration_ms=596, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 13:45:42], mode=BUILD, duration=0:00:00.091, duration_ms=91, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-08-04 16:56:06], mode=WORKBENCH_START, duration=0:00:04.577, duration_ms=4577, data={}
+timestamp=[2024-08-04 16:56:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.580, duration_ms=580, data={editors_count=7, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=LicentaStream,LicentaStream_system,Licenta_Design_wrapper,RemoteSystemsTempFiles}
+timestamp=[2024-08-04 16:56:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.799, duration_ms=799, data={}
+timestamp=[2024-08-04 17:44:22], mode=PLATFORM_GENERATION, duration=0:00:13.543, duration_ms=13543, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 17:44:24], mode=BUILD, duration=0:00:00.353, duration_ms=353, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 17:54:56], mode=APP_CREATION, duration=0:00:18.482, duration_ms=18482, data={name=LicentaStream, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=Licenta_Design_wrapper, application_type=application}
+timestamp=[2024-08-04 17:55:23], mode=PLATFORM_GENERATION, duration=0:00:12.435, duration_ms=12435, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 17:55:41], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 17:55:52], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 17:56:38], mode=PLATFORM_GENERATION, duration=0:00:15.400, duration_ms=15400, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 17:56:39], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 17:57:28], mode=PLATFORM_GENERATION, duration=0:00:04.312, duration_ms=4312, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 17:57:38], mode=PLATFORM_GENERATION, duration=0:00:07.136, duration_ms=7136, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 17:57:38], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 17:59:04], mode=PLATFORM_GENERATION, duration=0:00:09.786, duration_ms=9786, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 17:59:10], mode=PLATFORM_GENERATION, duration=0:00:03.324, duration_ms=3324, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 17:59:10], mode=BUILD, duration=0:00:00.100, duration_ms=100, data={name=LicentaStream, configuration=Debug, clean_build=true}
+timestamp=[2024-08-04 17:59:10], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=true}
+timestamp=[2024-08-04 17:59:26], mode=PLATFORM_GENERATION, duration=0:00:13.967, duration_ms=13967, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 17:59:27], mode=BUILD, duration=0:00:00.287, duration_ms=287, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 18:01:52], mode=PLATFORM_GENERATION, duration=0:00:16.472, duration_ms=16472, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 18:01:57], mode=PLATFORM_GENERATION, duration=0:00:04.668, duration_ms=4668, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 18:02:19], mode=PLATFORM_GENERATION, duration=0:00:20.426, duration_ms=20426, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 18:02:25], mode=PLATFORM_GENERATION, duration=0:00:04.483, duration_ms=4483, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 18:02:26], mode=BUILD, duration=0:00:00.094, duration_ms=94, data={name=LicentaStream, configuration=Debug, clean_build=true}
+timestamp=[2024-08-04 18:02:26], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=true}
+timestamp=[2024-08-04 18:02:51], mode=PLATFORM_GENERATION, duration=0:00:20.560, duration_ms=20560, data={name=Licenta_Design_wrapper}
+timestamp=[2024-08-04 18:02:52], mode=BUILD, duration=0:00:01.029, duration_ms=1029, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 18:02:57], mode=BUILD, duration=0:00:00.096, duration_ms=96, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-08-04 18:23:32], mode=BUILD, duration=0:00:00.655, duration_ms=655, data={name=LicentaStream, configuration=Debug, clean_build=false}
+timestamp=[2024-08-04 18:23:32], mode=BUILD, duration=0:00:00.086, duration_ms=86, data={name=LicentaStream_system, configuration=Emulation-SW, clean_build=false}

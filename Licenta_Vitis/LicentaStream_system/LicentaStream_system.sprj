@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
-<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="LicentaStream_system" platform="C:/Users/patri/Desktop/LicentaStagii/1/Vitis/LicentaPlatform/export/LicentaPlatform/LicentaPlatform.xpfm" platformUID="xilinx:zedboard:VideoPlatform:0.0(custom)" sysConfig="LicentaPlatform" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
-  <configuration name="Emulation-SW" id="com.xilinx.sdx.system.managedbuilder.swemu.configuration.1578561973">
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:systemproject="http://www.xilinx.com/systemproject" name="LicentaStream_system" platform="C:/Users/patri/Desktop/LicentaStagii/6_GPIO/Vitis/Licenta_Design_wrapper/export/Licenta_Design_wrapper/Licenta_Design_wrapper.xpfm" platformUID="xilinx:zedboard:VideoPlatform:0.0(custom)" sysConfig="Licenta_Design_wrapper" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Emulation-SW" id="com.xilinx.sdx.system.managedbuilder.swemu.configuration.2144962075">
     <configBuildOptions xsi:type="systemproject:SystemOptions">
-      <applications name="LicentaStream" domainName="standalone_domain" domainPrettyName="standalone on ps7_cortexa9_0" appBuildConfig="Debug"/>
-      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="33"/>
+      <applications name="LicentaStream" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Debug"/>
     </configBuildOptions>
     <lastBuildOptions xsi:type="systemproject:SystemOptions">
-      <applications name="LicentaStream" domainName="standalone_domain" domainPrettyName="standalone on ps7_cortexa9_0" appBuildConfig="Debug"/>
-      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="33"/>
+      <applications name="LicentaStream" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Debug"/>
     </lastBuildOptions>
   </configuration>
-  <configuration name="Emulation-HW" id="com.xilinx.sdx.system.managedbuilder.hwemu.configuration.1449903068">
+  <configuration name="Emulation-HW" id="com.xilinx.sdx.system.managedbuilder.hwemu.configuration.1109283409">
     <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu">
-      <applications name="LicentaStream" domainName="standalone_domain" domainPrettyName="standalone on ps7_cortexa9_0" appBuildConfig="Debug"/>
-      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="33"/>
+      <applications name="LicentaStream" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Debug"/>
     </configBuildOptions>
   </configuration>
-  <configuration name="Hardware" id="com.xilinx.sdx.system.managedbuilder.hw.configuration.776198664">
+  <configuration name="Hardware" id="com.xilinx.sdx.system.managedbuilder.hw.configuration.169678174">
     <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
-      <applications name="LicentaStream" domainName="standalone_domain" domainPrettyName="standalone on ps7_cortexa9_0" appBuildConfig="Debug"/>
-      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="33"/>
+      <applications name="LicentaStream" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Debug"/>
     </configBuildOptions>
   </configuration>
 </systemproject:SystemProject>

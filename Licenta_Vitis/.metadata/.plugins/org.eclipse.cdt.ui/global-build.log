@@ -1,14 +1,6 @@
-14:59:55 **** Incremental Build of project LicentaPlatform ****
-buildplatform.bat 49957 LicentaPlatform no_domain_build 
-'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
-operable program or batch file.
-'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
-operable program or batch file.
-'\gnuwin\bin\' is not recognized as an internal or external command,
-operable program or batch file.
-XSDB Server Channel: tcfchan#1
-Reading the platform  : "LicentaPlatform"
-15:00:03 **** Incremental Build of configuration Debug for project LicentaStream ****
+Nothing to build in platform 'Licenta_Design_wrapper'
+
+18:23:31 **** Incremental Build of configuration Debug for project LicentaStream ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -16,20 +8,20 @@ a9-linaro-pre-build-step
 make --no-print-directory main-build
 'Building file: ../src/main.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/patri/Desktop/LicentaStagii/1/Vitis/LicentaPlatform/export/LicentaPlatform/sw/LicentaPlatform/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/patri/Desktop/LicentaStagii/6_GPIO/Vitis/Licenta_Design_wrapper/export/Licenta_Design_wrapper/sw/Licenta_Design_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
 'Finished building: ../src/main.c'
 ' '
 'Building target: LicentaStream.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/patri/Desktop/LicentaStagii/1/Vitis/LicentaPlatform/export/LicentaPlatform/sw/LicentaPlatform/standalone_domain/bsplib/lib -o "LicentaStream.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/patri/Desktop/LicentaStagii/6_GPIO/Vitis/Licenta_Design_wrapper/export/Licenta_Design_wrapper/sw/Licenta_Design_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "LicentaStream.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
 'Finished building target: LicentaStream.elf'
 ' '
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size LicentaStream.elf  |tee "LicentaStream.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 103905	   3092	3201088	3308085	 327a35	LicentaStream.elf
+ 114137	   3140	3201088	3318365	 32a25d	LicentaStream.elf
 'Finished building: LicentaStream.elf.size'
 ' '
-15:00:04 **** Incremental Build of configuration Emulation-SW for project LicentaStream_system ****
+18:23:32 **** Incremental Build of configuration Emulation-SW for project LicentaStream_system ****
 make all 
 Package not supported, if the system project is in Emulation Target, and only Baremetal Or Embedded Linux Applications present

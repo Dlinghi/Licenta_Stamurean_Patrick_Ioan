@@ -3,7 +3,7 @@
 	<name>LicentaStream</name>
 	<comment>Created by Vitis v2024.1</comment>
 	<projects>
-		<project>LicentaPlatform</project>
+		<project>Licenta_Design_wrapper</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
